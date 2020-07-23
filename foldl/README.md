@@ -6,10 +6,11 @@ This is a partial Unison port of the Haskell [foldl](https://hackage.haskell.org
 
 ## getting the dependency
 
-In a `ucm` session, run the following. Feel free to change `external.foldl.trunk` to whatever namespace you prefer.
+In a `ucm` session, run the following. Feel free to change `external.foldl` to whatever namespace you prefer.
 
 ```
 .> pull https://github.com/ceedubs/unison-dev.git:.foldl.trunk external.foldl
+
 ```
 
 ## usage
