@@ -4,6 +4,14 @@
 
 This is a partial Unison port of the Haskell [foldl](https://hackage.haskell.org/package/foldl-1.1.2) module, and you'll find much better documentation there.
 
+## getting the dependency
+
+In a `ucm` session, run the following. Feel free to change `external.foldl.trunk` to whatever namespace you prefer.
+
+```
+.> pull https://github.com/ceedubs/unison-dev.git:.foldl.trunk external.foldl
+```
+
 ## usage
 
 First let's set up some test data: the numbers 1 through 100 (Unison's `range` is inclusive for the first value but exclusive for the second).
